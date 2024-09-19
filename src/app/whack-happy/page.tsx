@@ -24,7 +24,7 @@ const Trivia1Yay: React.FC = () => {
 
             {/* Instructions Paragraph */}
             <div className="instructions-container">
-                <p className="instructions-heading">All that valo does go somewhere damn, NOW ONWARDS!
+                <p className="instructions-heading"> NOW ONWARDS!
                     <i> The Final Game.</i> 
                 </p>
                 <ul className="instructions-list">
