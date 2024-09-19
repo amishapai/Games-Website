@@ -1,0 +1,49 @@
+/* Set the entire background to baby pink */
+body {
+    background-color: #b6e6a8; /* Baby pink background */
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, serif;
+}
+
+/* For the heading (Unpuzzle the pieces / Congratulations) */
+.tag {
+    text-align: center;
+    font-size: 2.5rem; /* Bigger font size */
+    font-family: Georgia, serif; /* Georgia font */
+    color: black;
+    margin: 2rem;
+}
+
+/* Italics difficulty text */
+.difficulty {
+    text-align: center;
+    font-size: 1.5rem; /* Smaller font size */
+    font-style: italic;
+    color: black;
+    margin-bottom: 2rem;
+}
+
+/* For the jigsaw puzzle container */
+.jigsaw-puzzle {
+    width: 38%;
+    height: 38%;
+    border: 2px solid black;
+    background-color: black; /* Puzzle area black */
+    margin: auto;
+    box-shadow: 0 5px 10px 2px rgba(0, 0, 0, 0.25);
+}
+
+/* Button that appears after completing the puzzle */
+.next-level-btn {
+    display: block; /* Initially hidden, will appear on completion */
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+    background-color: #d7aefb; /* Pastel purple */
+    border: 2px solid #000;
+    color: black;
+    font-size: 1.5rem;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+}

@@ -1,0 +1,56 @@
+.hangman-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #d4a0a0; /* Light background color */
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.question {
+    font-size: 45px;
+    margin-bottom: 20px;
+    color:#333
+}
+
+.word {
+    font-size: 36px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    color:rgb(12, 32, 99)
+}
+
+.keyboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.keyboard-button {
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 18px;
+    border: 2px solid #333;
+    background-color: white;
+    color: #333;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.keyboard-button:disabled {
+    background-color: #7c7373;
+    cursor: not-allowed;
+}
+
+.keyboard-button:hover {
+    background-color: #6d6161;
+}
+
+.attempts {
+    font-size: 20px;
+    color:rgb(36, 34, 32)
+}

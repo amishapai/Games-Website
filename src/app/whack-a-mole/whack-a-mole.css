@@ -1,0 +1,92 @@
+.whack-a-mole-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Georgia, serif; /* Serif font for the entire page */
+}
+body {
+    background-color: #eceeab; /* Baby pink background */
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, serif;
+}
+
+.title {
+    font-size: 48px;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 24px;
+    color: black;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.score {
+    font-size: 36px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.timer {
+    font-size: 24px;
+    color: red;
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 70px); /* Adjust for larger grid */
+    grid-template-rows: repeat(5, 70px);
+    gap: 5px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.grid-item {
+    width: 70px;
+    height: 70px;
+    background-color: #6e671d84;
+    border: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.mole-image {
+    width: 100%;
+    height: 100%;
+}
+
+.congratulations {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.restart-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.restart-button:hover {
+    background-color: #45a049;
+}
+
+/* Hide grid when game is over */
+.hidden {
+    display: none;
+}

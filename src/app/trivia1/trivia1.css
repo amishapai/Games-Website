@@ -1,0 +1,38 @@
+.trivia-container {
+    background-color: #dec5ef; /* Pastel purple background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: Georgia, serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.trivia-question {
+    font-size: 48px;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.trivia-buttons {
+    display: flex;
+    gap: 20px; /* Space between buttons */
+}
+
+.trivia-button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    overflow: hidden; /* Hide overflow to keep images contained */
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.button-image {
+    width: 300px; /* Adjust size as needed */
+    height: 300px;
+    object-fit: cover; /* Ensures image fits within the button */
+    border-radius: 10px;
+}
