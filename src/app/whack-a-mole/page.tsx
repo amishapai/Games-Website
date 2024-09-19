@@ -5,7 +5,7 @@ import './whack-a-mole.css';
 import { useRouter } from 'next/navigation';
 
 const GRID_SIZE = 5; // Grid size for the game
-const MAX_SCORE = 30; // Maximum score to win the game
+const MAX_SCORE = 5; // Maximum score to win the game
 
 const WhackAMole: React.FC = () => {
     const [molePosition, setMolePosition] = useState<number | null>(null);
@@ -59,7 +59,7 @@ const WhackAMole: React.FC = () => {
     return (
         <div className="whack-a-mole-container">
             <h1 className="title">Whack-a-Mole!</h1>
-            <h3 className="subtitle">Let's test your valo skills</h3>
+            <h3 className="subtitle">Score needed: 5</h3>
             <h2 className="score">Score: {score}</h2>
             <h3 className="timer">Time Left: {timeLeft} seconds</h3>
 
@@ -72,7 +72,7 @@ const WhackAMole: React.FC = () => {
                     >
                         {index === molePosition && (
                             <img
-                                src="/mole.png"
+                                src="selfie.jpeg"
                                 alt="Mole"
                                 className="mole-image"
                             />

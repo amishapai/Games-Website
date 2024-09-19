@@ -14,7 +14,7 @@ const EndPage: React.FC = () => {
 
     return (
         <div className="end-container">
-            <h1 className="end-title">tch tch that's wrong babes :((</h1>
+            <h1 className="end-title">Oops that's wrong :((</h1>
 
             {/* Custom GIF */}
             <div className="gif-container">

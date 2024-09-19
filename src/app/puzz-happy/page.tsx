@@ -15,7 +15,7 @@ const Trivia1Yay: React.FC = () => {
 
     return (
         <div className="end-container">
-            <h1 className="end-title">NOT BAD BABES</h1>
+            <h1 className="end-title">MOVING ON</h1>
 
             {/* Custom GIF */}
             <div className="gif-container">
@@ -26,12 +26,10 @@ const Trivia1Yay: React.FC = () => {
             <div className="instructions-container">
                 <p className="instructions-heading">The next game is really hard:</p>
                 <ul className="instructions-list">
-                    <li>No one in college skill lab could do it</li>
-                    <li>But I believe your gamer ass can</li>
                     <li>It's Whack-a-mole!!</li>
                     <li>You have to right click on the mole in the grid</li>
-                    <li><b>You have 49 seconds to get 30 points </b></li>
-                    <li><b>If you fail to get 30 points you will go back repeat it.</b></li>
+                    <li><b>You have 49 seconds to get 5 points </b></li>
+                    <li><b>If you fail to get 5 points you will go back repeat it.</b></li>
                 </ul>
             </div>
 

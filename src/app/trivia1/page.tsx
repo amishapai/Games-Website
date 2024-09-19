@@ -7,12 +7,12 @@ import './trivia1.css'; // Ensure this CSS file has the appropriate styles
 const Trivia1: React.FC = () => {
     return (
         <div className="trivia-container">
-            <h1 className="trivia-question">Who would win in a fight?</h1>
+            <h1 className="trivia-question">Who is cooler?</h1>
             <div className="trivia-buttons">
                 {/* Button with image linking to trivia1-yay */}
                 <Link href="/trivia1-yay">
                     <button className="trivia-button">
-                        <img src="/pfft.jpeg" alt="Option 1" className="button-image" />
+                        <img src="/run.jpeg" alt="Option 1" className="button-image" />
                     </button>
                 </Link>
                 

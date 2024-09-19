@@ -15,7 +15,7 @@ const Trivia1Yay: React.FC = () => {
 
     return (
         <div className="end-container">
-            <h1 className="end-title">!!GOOD JOB MY BABY OTTER!!</h1>
+            <h1 className="end-title">!!GOOD JOB!!</h1>
 
             {/* Custom GIF */}
             <div className="gif-container">
@@ -31,7 +31,6 @@ const Trivia1Yay: React.FC = () => {
                     <li>It's hangman!</li>
                     <li>A question is displayed.</li>
                     <li>You need to guess letters of the answer.</li>
-                    <li>Cause I'm certain you don't know it muahaha.</li>
                     <li><i>The answer has <b>2</b> words, there is no space gap provided.</i></li>
                     <li><b>You have 10 wrong attempts while guessing. </b></li>
                     <li><b>Beyond that your attempts won't count and you need to restart.</b></li>
@@ -42,7 +41,7 @@ const Trivia1Yay: React.FC = () => {
 
             {/* Next Button */}
             <Link href="/game3">
-            <button onClick={handleNext} className="next-button">Goldfish brain? let's hope not.</button>
+            <button onClick={handleNext} className="next-button">Let's go.</button>
             </Link>
         </div>
     );

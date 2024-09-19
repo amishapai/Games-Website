@@ -15,7 +15,7 @@ const Trivia1Yay: React.FC = () => {
 
     return (
         <div className="end-container">
-            <h1 className="end-title"> GOOD JOB TAKE A KISSIE </h1>
+            <h1 className="end-title"> GOOD JOB  </h1>
 
             {/* Custom GIF */}
             <div className="gif-container">
@@ -24,9 +24,9 @@ const Trivia1Yay: React.FC = () => {
 
             {/* Instructions Paragraph */}
             <div className="instructions-container">
-                <p className="instructions-heading">Thank you for playing this game bbg. You were successfull.
+                <p className="instructions-heading">Thank you for playing this game.
                 </p>
-                <p className="instructions-heading">Very cute, very demure, I like.</p>
+                <p className="instructions-heading">You were successful.</p>
             </div>
 
             {/* Next Button */}

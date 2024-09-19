@@ -6,7 +6,7 @@ import { JigsawPuzzle } from "react-jigsaw-puzzle/lib";
 import "react-jigsaw-puzzle/lib/jigsaw-puzzle.css";
 
 
-const imgSrc = "/orionus.png"; // Make sure this image is in the public folder
+const imgSrc = "/phone.jpeg"; // Make sure this image is in the public folder
 
 const App: React.FC = () => {
     const [text, setText] = useState<string>("Now try this one :))");
@@ -14,7 +14,7 @@ const App: React.FC = () => {
 
     // Function to set the congratulatory message
     const set = () => {
-        setText("GOOD JOB BBG GG!!");
+        setText("YAY NEW GAME NOW");
         setIsSolved(true); // Show the next level button after solving
     };
 

@@ -15,7 +15,7 @@ const Trivia1Yay: React.FC = () => {
 
     return (
         <div className="end-container">
-            <h1 className="end-title">GOOD JOB KITTY CAT</h1>
+            <h1 className="end-title">GOOD JOB </h1>
 
             {/* Custom GIF */}
             <div className="gif-container">

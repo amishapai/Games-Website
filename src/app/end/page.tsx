@@ -14,7 +14,7 @@ const YesNoPage: React.FC = () => {
 
     return (
         <div className="yes-no-container">
-            <img src="/cook.jpeg" alt="Big Image" className="big-image" />
+            <img src="/temple.jpeg" alt="Big Image" className="big-image" />
             <h1 className="yes-no-title">Of course it was.</h1>
             <button onClick={handleGoHome} className="go-home-button">Go Back to Beginning</button>
         </div>

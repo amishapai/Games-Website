@@ -58,7 +58,7 @@ const Hangman: React.FC = () => {
 
     return (
         <div className="hangman-container">
-            <h1 className="question">What's the first book that got me into reading?</h1>
+            <h1 className="question">What's the first book made me cry?</h1>
             <h2 className="word">{renderWord()}</h2>
             <div className="keyboard">
                 {Array.from('ABCDEFGHIJKLMNOPQRSTUVWXYZ').map(letter => (

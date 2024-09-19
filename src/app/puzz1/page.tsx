@@ -5,15 +5,15 @@ import "./puzzle.css";
 import { JigsawPuzzle } from "react-jigsaw-puzzle/lib";
 import "react-jigsaw-puzzle/lib/jigsaw-puzzle.css";
 import { useRouter } from "next/navigation"; // Import Next.js router
-const imgSrc = "/toiletkid.jpeg";
+const imgSrc = "/nhvps.jpeg";
 
 const App: React.FC = () => {
-    const [text, setText] = useState<string>("Solve the jigsaw bunny <3");
+    const [text, setText] = useState<string>("Puzzle #1");
     const [isSolved, setIsSolved] = useState<boolean>(false);
 
     // Function to set the congratulatory message
     const set = () => {
-        setText("woo that was easy, onwards cutie!");
+        setText("Congratulations! Onwards!");
         setIsSolved(true); // Show the next level button after solving
     };
 

@@ -7,7 +7,7 @@ import './globals.css';
 const HomePage: React.FC = () => {
     return (
         <div className="home-container">
-            <h1 className="home-title">Welcome Mr. Sammi Boy</h1>
+            <h1 className="home-title">Welcome Birthday Girl</h1>
             
             {/* Space for GIF */}
             <div className="gif-space">
@@ -19,14 +19,14 @@ const HomePage: React.FC = () => {
                 <p>You are now entering the best game of your life:</p>
                 <ul>
                     <li>Advised to be on full screen in browser before playing</li>
-                    <li>There is no special reward for completing the game, however, there is a lot of insults if you are unable to</li>
+                    <li>There is no special reward for completing the game, please keep low hopes</li>
                     <li>There are 3 games - with increasing difficulty and bonus trivia</li>
                     <li><b>Each time you make an error you will have to repeat</b></li>
                 </ul>
             </div>
 
             {/* ALL THE BEST text */}
-            <h2 className="all-the-best">ALL THE BEST <i>(you will need it)</i></h2>
+            <h2 className="all-the-best">ALL THE BEST </h2>
 
             {/* Begin button */}
             <Link href="/trivia1">
