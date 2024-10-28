@@ -6,7 +6,7 @@ import { JigsawPuzzle } from "react-jigsaw-puzzle/lib";
 import "react-jigsaw-puzzle/lib/jigsaw-puzzle.css";
 
 
-const imgSrc = "/phone.jpeg"; // Make sure this image is in the public folder
+const imgSrc = "/dp.jpeg"; // Make sure this image is in the public folder
 
 const App: React.FC = () => {
     const [text, setText] = useState<string>("Now try this one :))");
@@ -24,7 +24,7 @@ const App: React.FC = () => {
             {!isSolved && <p className="difficulty">Difficulty: Hard</p>}
             <JigsawPuzzle 
                 imageSrc={imgSrc}
-                rows={5}
+                rows={4}
                 columns={4}
                 onSolved={set}
 

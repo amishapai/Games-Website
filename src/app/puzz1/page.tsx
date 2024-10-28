@@ -5,7 +5,7 @@ import "./puzzle.css";
 import { JigsawPuzzle } from "react-jigsaw-puzzle/lib";
 import "react-jigsaw-puzzle/lib/jigsaw-puzzle.css";
 import { useRouter } from "next/navigation"; // Import Next.js router
-const imgSrc = "/nhvps.jpeg";
+const imgSrc = "/mirror.jpeg";
 
 const App: React.FC = () => {
     const [text, setText] = useState<string>("Puzzle #1");

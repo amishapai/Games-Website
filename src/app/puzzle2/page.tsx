@@ -5,7 +5,7 @@ import "./spuz.css";
 import { JigsawPuzzle } from "react-jigsaw-puzzle/lib";
 import "react-jigsaw-puzzle/lib/jigsaw-puzzle.css";
 import { useRouter } from "next/navigation"; // Import Next.js router
-const imgSrc = "/mamama.jpeg";
+const imgSrc = "/lp.jpeg";
 
 const App: React.FC = () => {
     const [text, setText] = useState<string>("Puzzle #2");
@@ -23,8 +23,8 @@ const App: React.FC = () => {
             {!isSolved && <p className="difficulty">Difficulty: Medium</p>}
             <JigsawPuzzle
                 imageSrc={imgSrc}
-                rows={4}
-                columns={4}
+                rows={3}
+                columns={3}
                 onSolved={set}
 
             />

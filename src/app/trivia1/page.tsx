@@ -12,7 +12,7 @@ const Trivia1: React.FC = () => {
                 {/* Button with image linking to trivia1-yay */}
                 <Link href="/trivia1-yay">
                     <button className="trivia-button">
-                        <img src="/run.jpeg" alt="Option 1" className="button-image" />
+                        <img src="/bw.jpeg" alt="Option 1" className="button-image" />
                     </button>
                 </Link>
                 

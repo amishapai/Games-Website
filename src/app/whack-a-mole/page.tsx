@@ -26,7 +26,7 @@ const WhackAMole: React.FC = () => {
             // Mole disappears after a short interval
             setTimeout(() => {
                 setMolePosition(null);
-            }, Math.random() * 400 + 300); // Mole stays for 300ms to 700ms
+            }, Math.random() * 500 + 400); // Mole stays for 300ms to 700ms
         }, randomInterval);
 
         return () => clearTimeout(timer);
@@ -72,7 +72,7 @@ const WhackAMole: React.FC = () => {
                     >
                         {index === molePosition && (
                             <img
-                                src="selfie.jpeg"
+                                src="draw.jpeg"
                                 alt="Mole"
                                 className="mole-image"
                             />

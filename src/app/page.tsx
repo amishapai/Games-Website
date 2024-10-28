@@ -18,8 +18,8 @@ const HomePage: React.FC = () => {
             <div className="home-body">
                 <p>You are now entering the best game of your life:</p>
                 <ul>
-                    <li>Advised to be on full screen in browser before playing</li>
-                    <li>There is no special reward for completing the game, please keep low hopes</li>
+                    <li>Advised to be on full screen on laptop in browser before playing</li>
+                    <li>There is no special reward for completing the game, but i will meet you someday and gift you</li>
                     <li>There are 3 games - with increasing difficulty and bonus trivia</li>
                     <li><b>Each time you make an error you will have to repeat</b></li>
                 </ul>
